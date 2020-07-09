@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign up</title>
+
+        <!-- 하이퍼 링크 색상 관리-->
+        <style type="text/css">
+            a:link{color:black;}
+            a:visited{color:black;}
+            a:hover{color:black;}
+            a:active{color:blue;}
+        </style>
+
+        <!-- 구글 폰트 사용-->
+        <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+
+        <!--구글 폰트 적용-->
+        <style>
+            body{
+                font-family: 'Cute Font', cursive;
+            }
+        </style>
+
+        <style>
+            .signup_form{
+                text-align: center;
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+
+            ul{
+                list-style: none;
+            }
+
+            #signup_btn{
+                padding: 5px 10px;
+                text-align: center;
+                text-decoration: none;
+                position: relative;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;             
+                cursor: pointer;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+        <div class="signup_form">
+            <fieldset>
+                <legend style="font-size: 100px;">Sign up!</legend>
+                    <ul>
+                        <li>
+
+                            <label for="id" style="font-size: 30px;">id:</label>
+                            <input type="text" placeholder="Type your id" id="id">
+                        </li>
+
+                        <li>
+                            <label for="passwd" style="font-size: 30px;">passwd:</label>
+                            <input type="text" placeholder="Type your passwd" id="passwd">
+                        </li>
+
+                        <li>
+                            <input type="button" value="sign up" id="signup_btn">
+                        </li>
+
+                        <li>
+                            <a href="./login.html" style="font-size: 30px;">Login</a>
+                        </li>
+
+                    
+
+                        
+                    </ul>    
+
+            </fieldset>
+            
+        </div>
+
+    </body>
+</html>
